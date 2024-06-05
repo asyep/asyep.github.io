@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>2308165_Asep Nadhirin</title>
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: 'Quicksand', sans-serif;
+                padding: 0;
+                margin: 0;
+            }
+
+            h2,
+            h3 {
+                color: #00a2c6;
+            }
+
+            .nama {
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+            .bold {
+                font-weight: bold;
+            }
+
+            footer {
+                padding: 20px;
+                color: white;
+                background-color: #00a2c6;
+                text-align: center;
+                font-weight: bold;
+            }
+
+            nav a {
+                font-size: 18px;
+                font-weight: 400;
+                text-decoration: none;
+                color: white;
+            }
+
+            nav a:hover {
+                font-weight: bold;
+            }
+
+            .profile header {
+                text-align: center;
+            }
+
+            .featured-image {
+                width: 100%;
+                max-height: 300px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .profile img {
+                width: 200px;
+            }
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            .jumbotron {
+                font-size: 20px;
+                padding: 20px;
+                background-color: #00c8eb;
+                text-align: center;
+                color: white;
+            }
+
+            nav li {
+                display: inline;
+                list-style-type: none;
+                margin-left: 20px;
+            }
+
+            nav {
+                background-color: #00a2c6;
+                padding: 5px;
+                position: sticky;
+                top: 0;
+            }
+
+            main {
+                padding: 20px;
+                overflow: auto;
+            }
+
+            #content {
+                float: left;
+                width: 75%;
+            }
+
+            aside {
+                float: right;
+                width: 25%;
+                padding-left: 20px;
+            }
+
+            .rounded-img {
+                border-radius: 50%;
+                width: 200px;
+                height: 200px;
+            }
+
+            header {
+                display: inline;
+            }
+
+            @media screen and (max-width: 1000px) {
+                #content,
+                aside {
+                    width: 100%;
+                    padding: 0;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div class="jumbotron">
+                <span class="nama">Asep Nadhirin</span><br>
+                <span>Software Engineering Student</span>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#Profil Saya">Profil Saya</a></li>
+                    <li><a href="#Tentang Saya">Tentang Saya</a></li>
+                    <li><a href="#Keahlian">Keahlian</a></li>
+                    <li><a href="#Riwayat Pendidikan">Riwayat Pendidikan</a></li>
+                    <li><a href="#Prestasi">Prestasi</a></li>
+                    <li><a href="#Pengalaman Organisasi">Pengalaman Organisasi</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div id="content">
+                <article id="Tentang Saya" class="card">
+                    <h2>Tentang Saya</h2>
+                    <p>Saya adalah seorang mahasiswa yang bersemangat dalam mengejar pendidikan tinggi di bidang Teknologi Informasi. Dari kecil, minat saya terhadap teknologi telah membimbing saya, dan saya percaya bahwa pendidikan adalah kunci untuk membuka peluang tak terbatas.<br>
+                        <br>Saya selalu berusaha untuk belajar dan berkembang dalam Teknologi Informasi. Terlibat dalam berbagai project telah memperdalam pemahaman dan keterampilan saya dalam bidang ini.<br>
+                        <br>Saya aktif dalam Organisasi Mahasiswa, yang tidak hanya memperluas jaringan sosial, tetapi juga membantu saya mengembangkan keterampilan kepemimpinan dan kerjasama.<br>
+                        <br>Dengan antusiasme dalam menghadapi tantangan dan memecahkan masalah, saya yakin dapat mencapai tujuan akademik saya dan memberikan kontribusi yang berarti di masa depan.</p>
+                </article>
+
+                <article id="Keahlian" class="card">
+                    <h2>Keahlian</h2>
+                    <ul>
+                        <li>Kemauan yang tinggi untuk belajar</li>
+                        <li>Berintegrasi</li>
+                        <li>Kepemimpinan</li>
+                        <li>Mampu bekerja dalam tim</li>
+                    </ul>
+                </article>
+
+                <article id="Riwayat Pendidikan" class="card">
+                    <h2>Riwayat Pendidikan</h2>
+                    <section>
+                        <span class="bold">Universitas Pendidikan Indonesia, Bandung</span><br>
+                        <span>2023-sekarang</span><br>
+                        <span>Rekayasa Perangkat Lunak</span><br>
+                        <br>
+                        <span class="bold">SMA Negeri 1 Lemahabang, Cirebon</span><br>
+                        <span>2020-2023</span><br>
+                        <span>MIPA</span>
+                    </section>
+                </article>
+
+                <article id="Prestasi" class="card">
+                    <h2>Prestasi</h2>
+                    <ul>
+                        <li>Juara 1 Tanding Silat Putra Kejuaran Cirebon Bangkit Championship, 2022</li>
+                        <li>Juara 2 Tanding Silat Putra Kejuaran Nasional Mahardika Cup, 2022</li>
+                        <li>Duta Hukum dan Hak Asasi Manusia Jawa Barat, 2022</li>
+                        <li>Juara Tanding Silat Putra Kejuaraan Nasional Satria Cirebon Open, 2022</li>
+                    </ul>
+                </article>
+
+                <article id="Pengalaman Organisasi" class="card">
+                    <h2>Pengalaman Organisasi</h2>
+                    <ul>
+                        <li>2023-2024: Himpunan Mahasiswa RPL Universitas Pendidikan Indonesia Kampus Cibiru, Staff Komisi</li>
+                        <li>2020-2023: Forum Pelajar Sadar Hukum SMA Negeri 1 Lemahabang, Wakil Ketua</li>
+                        <li>2021-2022: Ekstrakulikuler Kelompok Ilmiah Remaja SMA Negeri 1 Lemahabang, Koordinator Sekbid Humas</li>
+                        <li>2021-2022: Majelis Perwakilan Kelas SMA Negeri 1 Lemahabang, Ketua Umum</li>
+                        <li>2020-2021: Ekstrakulikuler Kelompok Ilmiah Remaja SMA Negeri 1 Lemahabang, Anggota</li>
+                        <li>2020-2021: Majelis Perwakilan Kelas SMA Negeri 1 Lemahabang, Anggota Komisi A</li>
+                    </ul>
+                </article>
+            </div>
+
+            <aside>
+                <article id="Profil" class="profile card">
+                    <header>
+                        <h2>Profil Saya</h2>
+                        <figure>
+                            <img src="https://lh3.googleusercontent.com/pw/AP1GczNCFBPJi25NotLbKLj-dgCP2ZAIj8yCD1B3oZASGq0cjmn0kI-0s-xdOe8Y_gKk_XxQz0uj-p1-tlcR84MHkgpfGyIzS7YxvuQdu11-GzBPkQPL-aQ=w2400" class="rounded-img">
+                            <figcaption>Orang Ganteng</figcaption>
+                        </figure>
+                    </header>
+
+                    <section>
+                        <table>
+                            <tr>
+                                <td>Nama</td>
+                                <td>:</td>
+                                <td>Asep Nadhirin</td>
+                            </tr>
+                            <tr>
+                                <td>Jenis Kelamin</td>
+                                <td>:</td>
+                                <td>Laki-laki</td>
+                            </tr>
+                            <tr>
+                                <td>Alamat</td>
+                                <td>:</td>
+                                <td>Sedong, Cirebon</td>
+                            </tr>
+                            <tr>
+                                <td>Agama</td>
+                                <td>:</td>
+                                <td>Islam</td>
+                            </tr>
+                            <tr>
+                                <td>Pekerjaan</td>
+                                <td>:</td>
+                                <td>Mahasiswa</td>
+                            </tr>
+                        </table>
+                    </section>
+
+                    <section>
+                        <h2>Kontak</h2>
+                        <table>
+                            <tr>
+                                <td>Telpon</td>
+                                <td>:</td>
+                                <td>+6281223506509</td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td>:</td>
+                                <td><a href="mailto:asepnadh@upi.edu">asepnadh@upi.edu</a></td>
+                            </tr>
+                            <tr>
+                                <td>LinkedIn</td>
+                                <td>:</td>
+                                <td><a href="https://www.linkedin.com/in/asep-nadhirin-ba00462b3/">Asep Nadhirin</a></td>
+                            </tr>
+                            <tr>
+                                <td>Instagram</td>
+                                <td>:</td>
+                                <td><a href="https://www.instagram.com/as3p.n/">@as3p.n</a></td>
+                            </tr>
+                            <tr>
+                                <td>Twitter</td>
+                                <td>:</td>
+                                <td><a href="https://twitter.com/asyepnarindin">@asyepnarindin</a></td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Rekayasa Perangkat Lunak 2024, Universitas Pendidikan Indonesia </p>
+        </footer>
+    </body>
+</html>
